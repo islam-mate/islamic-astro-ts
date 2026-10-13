@@ -1,0 +1,31 @@
+{
+  "name": "islamic-astro",
+  "version": "1.0.0",
+  "description": "Zero-dependency TypeScript astronomical engine for Islamic prayer times, Qibla direction, and solar positions.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types test/astro.test.ts"
+  },
+  "keywords": [
+    "islamic",
+    "prayer-times",
+    "qibla",
+    "adhan",
+    "azimuth",
+    "solartimes",
+    "astronomy",
+    "fajr",
+    "maghrib",
+    "ramadan"
+  ],
+  "author": "Islamic Tech Community",
+  "license": "MIT"
+}
